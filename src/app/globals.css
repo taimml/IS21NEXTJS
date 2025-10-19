@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-mygreen: #33836E
+
+}
+@theme inline {
+  --color-myblack: #140A32
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color:  #140A32;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.text-38px {
+  font-size: 38px;
+}
