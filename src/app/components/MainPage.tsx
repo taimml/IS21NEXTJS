@@ -1,13 +1,11 @@
 export default function MainPage() {
     return (
-    <div>    
+    <div className="max-w-7xl mx-auto px-8">    
         <div className="flex items-start justify-between gap-16 py-6">
-                {/* основное */}
             <div className="flex-1">    
                 <div className="mb-12">
                     <a href="#" className="text-gray-400 hover:text-gray-600">Главная / Горячая линия</a>
                 </div>
-                {/* текст */}
                 <h1 className="text-4xl font-bold mb-3 ">Горячая линия по оказанию юридической помощи онлайн</h1>
                 <p className="text-lg mb-8">Профессиональная помощь доступна круглосуточно – заявки обрабатываются 
                 в любое время дня и ночи. Обращаясь к специалистам «100 Юристов», вы можете 
@@ -39,7 +37,6 @@ export default function MainPage() {
                 </div>
             </div>
             <div className="w-1/3">
-                {/* фото */}
                 <img src="Frame 1.svg" alt="мужик" className="w-105 h-auto" />
             </div>
         </div>
@@ -47,7 +44,6 @@ export default function MainPage() {
 
 
         <div className="mt-16">
-            {/* юридическая помощь */}
             <h2 className="text-4xl font-bold mb-6" >Юридическая помощь</h2>
             <div className="space-y-4 leading-relaxed text-lg mb-20 w-310">
             <p>Срочно понадобились услуги профессионального юриста или адвоката? Решение есть!
@@ -61,7 +57,6 @@ export default function MainPage() {
         </div>
 
         <div>
-            {/* как получить */}
             <h2 className="text-4xl font-bold mb-4">Как получить бесплатную юридическую консультацию?</h2>
             <p className="text-lg mb-10">Задайте вопрос юристу бесплатно круглосуточно и без регистрации</p>
 
@@ -98,14 +93,13 @@ export default function MainPage() {
         </div>
 
         <div className="py-24">
-            {/* специальности наших юристов */}
             <h2 className="text-4xl font-bold mb-12">Специальности наших юристов</h2>
             
             <div className="grid grid-cols-2 gap-8 mb-6">
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/1stroller.svg" alt="fm" className="w-8"/>
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По семейным делам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По семейным делам</p>
                     </div>
                     <p className="text-gray-500 text-lg">Юрист помогает в решении жилищных, образовательных, имущественных, 
                     страховых, земельных и иных споров и вопросов по данному направлению. 
@@ -116,7 +110,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/2ev-plug.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По вопросам ЖКХ</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По вопросам ЖКХ</p>
                     </div>
                     <p className="text-gray-500 text-lg">С каждым годом у граждан России возникает все больше вопросов к структурам 
                     жилищно-коммунального хозяйства. Некоторых интересует, почему они должны каждый 
@@ -133,7 +127,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/3city.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По жилищному праву</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По жилищному праву</p>
                     </div>
                     <p className="text-gray-500 text-lg">Квартирный вопрос из года в год остается камнем преткновения для многих граждан. 
                     Люди чуть ли не на смерть бьются за каждый причитающийся им квадратный метр. И эта 
@@ -147,7 +141,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/4lot-of-cash.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По кредитам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По кредитам</p>
                     </div>
                     <p className="text-gray-500 text-lg">Данное направление актуально не только для отдельных граждан, но и предпринимателей, 
                     крупных предприятий. Во время бесплатной консультации наши сотрудники подскажут, как 
@@ -161,7 +155,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/5pin-alt.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По земельным делам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По земельным делам</p>
                     </div>
                     <p className="text-gray-500 text-lg">На сегодняшний день земля – ценный актив, использовать который можно по-разному. 
                     Например, на ней можно добывать полезные ископаемые (при наличии таковых в недрах), 
@@ -174,7 +168,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/6large-suitcase.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По трудовым вопросам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По трудовым вопросам</p>
                     </div>
                     <p className="text-gray-500 text-lg">Права трудящихся, несмотря на наличие соответствующего кодекса, постоянно нарушаются. 
                     Многие сотрудники сталкиваются с незаконными увольнениями, беспричинно лишаются оплаты 
@@ -191,7 +185,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/7bank.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По приставам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По приставам</p>
                     </div>
                     <p className="text-gray-500 text-lg">Визит пристава – это практически всегда негативные эмоции. Особенно 
                     неприятно общение, если человек не знает, как правильно себя вести с сотрудниками 
@@ -203,7 +197,7 @@ export default function MainPage() {
                 <div className="p-6 border border-gray-200 rounded-3xl ">
                     <div className="flex items-center gap-3 mb-2">
                         <img src="/8group.svg" alt="" className="w-8" />
-                        <p className="text-lg font-semibold border-b-1 border-mygreen">По гражданским делам</p>
+                        <p className="text-lg font-semibold border-b border-mygreen">По гражданским делам</p>
                     </div>
                     <p className="text-gray-500 text-lg mb-30">Юрист помогает в решении жилищных, образовательных, имущественных, 
                     страховых, земельных и иных споров и вопросов по данному направлению. В 
@@ -212,12 +206,30 @@ export default function MainPage() {
                 </div>
             </div>
 
-            <img src="/Frame 43.svg" alt="ph" className="w-400 mt-25"/>
+            <div className="flex flex-row px-10 relative mt-24 mb-24 bg-gray-50 rounded-2xl">
+                
+                <div className="flex items-center mt-5">
+                    <h2 className="text-[32px] font-bold max-w-[350px]">Задайте вопрос юристу бесплатно</h2>
+                    <div>
+                        <div className="flex gap-4 bg-white">
+                            <div className="">
+                                <input type="tel" placeholder="+7 963 335-87-52" className="w-full border border-gray-300 rounded-lg px-4 py-4 text-black placeholder-gray-400"/>
+                            </div>
+                            <button className="bg-mygreen text-white px-12 py-4 rounded-xl">Заказать звонок</button>
+                        
+                        </div>
+                        <p className="text-gray-400 text-[12px] max-w-sm mt-5">Отправляя вопрос, вы соглашаетесь с условиями Пользовательского соглашения</p>
+                    </div>
+                    
+                </div>
+                <img src="/Frame 1012.svg" alt="" />
+            </div>
+            
         </div>
 
         <div className="mb-25">
             <h2 className="text-4xl font-bold mb-10">Блок для SEO текста</h2>       
-            <div className="text-xl w-350 mb-10">
+            <div className="text-lg w-350 mb-10 max-w-7xl">
                 <p className="mb-3">Срочно понадобились услуги профессионального юриста или адвоката? Решение есть! Наша горячая 
                     юридическая линия – возможность оперативно, абсолютно бесплатно получить ответ на любой вопрос. 
                     Теперь не нужно записываться на офлайн-прием и тратить время на поездку и очереди перед кабинетом.</p>
@@ -230,23 +242,60 @@ export default function MainPage() {
 
         <div>
             <h2 className="text-4xl font-bold mb-10">Отзывы наших клиентов</h2>
-            <div>
-                <div className="flex flex-row gap-4">
-                    <img src="/Frame 943.svg" alt="ава" className="w-15" />
+            <div className="grid grid-cols-3 gap-5">
+                <div className="border border-b rounded-2xl border-gray-300 px-4 py-4">
+                    <div className="flex flex-row gap-4 mb-5">
+                        <img src="/Frame 943.svg" alt="ава" className="w-12" />
+                        <div>
+                            <p className="text-lg font-semibold">Вадим</p>
+                            <p className="text-gray-400">02 июля 2025</p>
+                        </div>
+                    </div>
                     <div>
-                        <p className="text-xl font-semibold">Вадим</p>
-                        <p className="text-lg text-gray-400">02 июля 2025</p>
+                        <p className="mb-20 max-w-[300px]">Хочу поблагодарить Веру Владимировну за оказанную мне помощь, объяснила что да как, 
+                            на душе стало намного легче</p>
+                        <div>
+                            <p className="text-sm text-gray-400 mb-3">Вопрос:</p>
+                            <p className="text-mygreen font-semibold">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                        </div>
+                    </div>
+                </div>   
+                    <div className="border border-b rounded-2xl border-gray-300 px-4 py-4">
+                    <div className="flex flex-row gap-4 mb-5">
+                        <img src="/Frame 943.svg" alt="ава" className="w-12" />
+                        <div>
+                            <p className="text-lg font-semibold">Вадим</p>
+                            <p className="text-gray-400">02 июля 2025</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p className="mb-20 max-w-[300px]">Хочу поблагодарить Веру Владимировну за оказанную мне помощь, объяснила что да как, 
+                            на душе стало намного легче</p>
+                        <div>
+                            <p className="text-sm text-gray-400 mb-3">Вопрос:</p>
+                            <p className="text-mygreen font-semibold">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <p className="text-xl">Хочу поблагодарить Веру Владимировну за оказанную мне помощь, объяснила что да как, 
-                        на душе стало намного легче</p>
-                    <div>
-                        <p className="text-base">Вопрос:</p>
-                        <p className="text-lg">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                    <div className="border border-b rounded-2xl border-gray-300 px-4 py-4">
+                    <div className="flex flex-row gap-4 mb-5">
+                        <img src="/Frame 943.svg" alt="ава" className="w-12" />
+                        <div>
+                            <p className="text-lg font-semibold">Вадим</p>
+                            <p className="text-gray-400">02 июля 2025</p>
+                        </div>
                     </div>
-                </div>
+                    <div>
+                        <p className="mb-20 max-w-[300px]">Хочу поблагодарить Веру Владимировну за оказанную мне помощь, объяснила что да как, 
+                            на душе стало намного легче</p>
+                        <div>
+                            <p className="text-sm text-gray-400 mb-3">Вопрос:</p>
+                            <p className="text-mygreen font-semibold">Заберут ли меня в случае общей мобилизации на войну если я</p>
+                        </div>
+                    </div>
+                </div> 
             </div>
+            
             <div></div>
             <div></div>
         </div>
