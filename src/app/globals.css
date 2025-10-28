@@ -9,8 +9,13 @@
   --color-mygreen: #33836E
 
 }
+
 @theme inline {
   --color-myblack: #140A32
+}
+
+@theme inline{
+  --color-mybutton: #E0ECE9
 }
 
 @media (prefers-color-scheme: dark) {
